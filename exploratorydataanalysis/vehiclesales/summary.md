@@ -1,6 +1,6 @@
-Exploratory Data Analysis (EDA) was conducted on vehicle sales data using Python to support strategic decision-making.
+```Exploratory Data Analysis (EDA)``` was conducted on vehicle sales data using Python to support strategic decision-making.
 
-This analysis offers a comprehensive overview of customer behaviour, market performance, and sales trends.
+This analysis offers a comprehensive overview of ```customer behaviour, market performance, and sales trends```.
 
 The data was downloaded from Kaggle. While the data was relatively clean and smaller in scale compared to real-world business datasets, the focus extended beyond technical analysis. The analysis was approached from a business-oriented perspective by:
 
