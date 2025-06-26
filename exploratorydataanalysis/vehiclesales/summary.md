@@ -2,12 +2,29 @@
 
 This analysis offers a comprehensive overview of ```customer behaviour, market performance, and sales trends```.
 
+Note:
+
+- Sales in the analysis represent sales revenue and not order count.
+
 The data was downloaded from Kaggle. While the data was relatively clean and smaller in scale compared to real-world business datasets, the focus extended beyond technical analysis. The analysis was approached from a business-oriented perspective by:
 
-- Asking executive -driven questions to guide the analysis.
+- Asking executive-driven questions to guide the analysis
 
-- Performing time series analysis to uncover trends over time.
+- Performing time series analysis to uncover trends over time
 
-- Conducting customer segmentation to identify distinct customer groups and potential strategies.
+- Conducting customer segmentation to identify distinct customer groups and their behaviour
 
-Through this project, core data analysis techniques were applied but also business thinking was sharpened, translating analytical insights into potential business value. This mindset is crucial when collaborating with stakeholders and driving tangible outcomes in real-world scenarios.
+- Finding meaningful insights and providing recommendations
+
+Framework followed for the analysis:
+
+- Goal: EDA can be run in all directions and therefore, scope has to be decided through requirements gathering. But as this analysis was not conducted in real business set-up, the requirements gathering was done through asking executive-driven questions
+
+- Columns: The analysis was mainly focused on sales revenue, and ```Sales``` column was used for it. The ```Order date``` and ```Customer Name``` column were also important columns for customer segmentation
+
+- Aggregation and anomalies: Quick aggregations helped to understand the data. In addition, ```Univariate Analysis``` supported in knowing revenue distribution by product, spotting outliers and averages
+
+- Dimensional aspect: ```Multi-variate Analysis```, ```Time-Series Analysis``` and ```Customer Segmentation``` were conducted for further deep dive into data
+
+- Insights and Recommendations: Presented hidden information that will lead in creating value through supporting decision-making 
+
