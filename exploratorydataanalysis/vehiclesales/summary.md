@@ -18,9 +18,9 @@ The data was downloaded from Kaggle. While the data was relatively clean and sma
 
 Framework followed for the analysis:
 
-- Goal: EDA can be run in all directions and therefore, scope has to be decided through requirements gathering. But as this analysis was not conducted in real business set-up, the requirements gathering was done through asking executive-driven questions
+- Requirement Gathering: EDA can be run in all directions and therefore, scope has to be decided through requirements gathering. But as this analysis was not conducted in real business set-up, the requirements gathering was done by considering executives as the audience
 
-- Columns: The analysis was mainly focused on sales revenue, and ```Sales``` column was used for it. The ```Order date``` and ```Customer Name``` column were also important columns for customer segmentation
+- Data Requirements: The analysis was mainly focused on sales revenue, and ```Sales``` column was used for it. The ```Order date``` and ```Customer Name``` column were also important columns for customer segmentation
 
 - Aggregation and anomalies: Quick aggregations helped to understand the data. In addition, ```Univariate Analysis``` supported in knowing revenue distribution by product, spotting outliers and averages
 
