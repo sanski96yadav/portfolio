@@ -1,1 +1,38 @@
+version: 2
 
+models:
+  - name: stg_invoice_lines
+    columns:
+      - name: invoice_id
+        tests:
+          - not_null
+
+  - name: prep_invoice_lines
+    columns:
+      - name: invoice_id
+        tests:
+          - not_null
+      - name: pk_invoice_line_key #not null test not needed as surrogate keys function was used which handles null values
+        tests:
+          - unique 
+      
+
+  - name: prep_products
+    columns:
+      - name: stock_id
+        tests:
+          - not_null
+      - name: pk_product_key 
+        tests:
+          - unique 
+    
+  - name: prep_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+      - name: pk_customer_key #not null test not needed as surrogate keys function was used which handles null values
+        tests:
+          - unique 
+  
+ 
