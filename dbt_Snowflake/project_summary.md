@@ -36,3 +36,10 @@ Raw data was downloaded from Kaggle and consisted of the following columns:
 - ```Data Accuracy```: Verified the results of the models. Ran the tests, macros and snapshots (SCD typ2)
 - ```Documentation```: Generated documentation
 
+```dbt features used```:
+
+- tests
+- macros
+- surrogate keys
+- snapshots
+- documentation
