@@ -2,8 +2,6 @@ Designed and implemented a scalable data warehouse DWH architecture in Snowflake
 Covered the full data pipeline lifecycle — from data ingestion and transformation to building analytics-ready data models
 Focus on aligning with realistic business scenarios and best practices in data engineering
 
-The project showcases my SQL, dbt and Snowflake skills, as well as my  ability to translate business needs into technical requirements
-
 Dataset
 
 It was downloaded from Kaggle and consisted the following columns:
