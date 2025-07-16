@@ -9,7 +9,7 @@ Dataset
 It was downloaded from Kaggle and consisted the following columns:
 
 
-Framework followed during the analysis:
+Steps followed during the analysis:
 
 - Downloaded the data from Kaggle (data extraction)
 - After a quick look at the data, built business requirements that can be addressed with it
