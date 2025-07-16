@@ -20,6 +20,7 @@ Raw data was downloaded from Kaggle and consisted of the following columns:
 | Country | Name of the country where each customer resides |
 
 
+
 ```Approach followed```:
 
 - ```Data Extraction```: Downloaded the data from Kaggle 
