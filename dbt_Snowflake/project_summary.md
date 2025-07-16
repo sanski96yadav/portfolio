@@ -1,3 +1,5 @@
+```Description```
+
 Designed and implemented a ```scalable data warehouse DWH architecture``` in ```Snowflake using dbt``` as part of a portfolio project. 
 Covered the full data pipeline lifecycle — from data ingestion and transformation to building analytics-ready data models
 Focus on aligning with realistic business scenarios and best practices in data engineering
