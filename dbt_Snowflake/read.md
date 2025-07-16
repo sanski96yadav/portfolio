@@ -16,7 +16,7 @@ Approach followed:
 - ```Project Management```: Created a Notion folder to manage the project
 - ```Data Understanding & Cleaning```: Explored data in Snowflake UI - noted the observations from data in Excel file and used them further for data cleaning
 - ```Data Architecture```: Designed DWH architecture 
-- ```Data Modeling ```: Created analytics-ready data models by transforming data in 4 layers ```staging> prep> mart> report``` in Snowflake and leverage Star Schema data modeling technique
+- ```Data Modeling```: Created analytics-ready data models by transforming data in 4 layers ```staging> prep> mart> report``` in Snowflake and leverage Star Schema data modeling technique
 - ```Data Accuracy```: Verified the results of the models. Ran the tests, macros and snapshots (SCD typ2)
 - ```Documentation```: Generated documentation
 
