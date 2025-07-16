@@ -4,10 +4,21 @@ Focus on aligning with realistic business scenarios and best practices in data e
 
 ```Dataset```
 
-It was downloaded from Kaggle and consisted the following columns:
+Raw data was downloaded from Kaggle and consisted of the following columns:
+
+| Column names     | Description     | 
+| ------------- |-------------|
+| InvoiceNo | Invoice number uniquely assigned to each transaction |
+| StockCode | Product (item) code uniquely assigned to each distinct product |
+| Description | Product (item) name |
+| Quantity | The quantities of each product (item) per transaction |
+| InvoiceDate | Invoice Date and time when each transaction was generated |
+| UnitPrice |  Product price per unit in Euros |
+| CustomerID |  Customer number uniquely assigned to each customer |
+| Country | Name of the country where each customer resides |
 
 
-Approach followed:
+```Approach followed```:
 
 - ```Data Extraction```: Downloaded the data from Kaggle 
 - ```Requirements Gathering```: After a quick look at the data, built business requirements that can be addressed with it
