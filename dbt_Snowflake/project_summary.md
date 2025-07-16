@@ -21,6 +21,8 @@ Raw data was downloaded from Kaggle and consisted of the following columns:
 
 
 
+
+
 ```Approach followed```:
 
 - ```Data Extraction```: Downloaded the data from Kaggle 
