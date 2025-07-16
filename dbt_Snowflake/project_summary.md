@@ -43,3 +43,11 @@ Raw data was downloaded from Kaggle and consisted of the following columns:
 - surrogate keys
 - snapshots
 - documentation
+
+```dbt commands ran```:
+
+- dbt run --select 'model_name'
+- dbt snapshot
+- dbt test
+- dbt docs generate
+- dbt docs serve
