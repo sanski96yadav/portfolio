@@ -4,6 +4,7 @@ Designed and implemented a ```scalable data warehouse DWH architecture``` in ```
 Covered the full data pipeline lifecycle — from data ingestion and transformation to building analytics-ready data models with focus on aligning with realistic business scenarios and best practices in data engineering
 
 ```DWH Archirecture```
+
  staging > prep > mart (Star schema - facts and dim tables) > report
 
 ```Dataset```
