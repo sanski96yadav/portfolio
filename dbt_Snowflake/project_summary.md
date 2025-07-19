@@ -5,7 +5,7 @@ Covered the full data pipeline lifecycle — from data ingestion and transformat
 
 ```DWH Archirecture```
 
- staging > prep > mart (Star schema - facts and dim tables) > report
+ staging > prep > mart (Star schema - fct and dim) > report (fcts + dim)
 
 ```Dataset```
 
