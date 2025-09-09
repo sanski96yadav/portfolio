@@ -1,4 +1,5 @@
-Insights
+```Insights```
+
 High-value customers aren't always the most frequent buyers. However, Euro Shopping Channel (9% of total sales) and Mini Gifts Distributors Ltd. (7%) are both frequent purchasers and top-value customers
 
 The top three markets by sales are:
