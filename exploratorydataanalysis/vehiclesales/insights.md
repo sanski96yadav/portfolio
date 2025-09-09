@@ -4,11 +4,11 @@
 
 - The top three markets by sales are:
 
-USA -34% (3.3M €)
+     USA -34% (3.3M €)
 
-Spain - 12% (1.1M €)
+     Spain - 12% (1.1M €)
 
-France - 11% (1M €)
+     France - 11% (1M €)
 
 - Significant sales spikes occurred in November 2018 and November 2019, impacting all product lines. Maybe due to holiday season or promotions
 
@@ -17,3 +17,15 @@ France - 11% (1M €)
 - Returning customers contribute to over 50% of total sales across all product lines, deal sizes, and top-performing countries
 
 - No new customers have been acquired since October 2019
+
+
+
+```Recommendations```
+
+- Focus on high-value clients and top markets
+
+- Leverage the success of Classic Cars in marketing and product development
+
+- Look into marketing campaigns and promotions that happened in November months
+
+- Address the gap in new customer acquisition through targeted campaigns
