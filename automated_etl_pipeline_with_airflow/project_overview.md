@@ -1,4 +1,4 @@
-Created an automated ETL pipelines to run daily to fetch data from wearher API and load it into PostgreSQL using Apache Airflow. The Airflow was ran with Docker. pgAdmin was used to manage PostgreSQL. 
+Created an automated ETL pipelines to run daily to fetch current weather data from Open Meteo API and load it into PostgreSQL using Apache Airflow. The Airflow was ran with Docker. pgAdmin was used to manage PostgreSQL. 
 
 After running the Docker containers, the Airflow webserver UI was accessed on my local machine via localhost:8080. Similarly, pgAdmin on localhost:5050, both of which were exposed from their respective containers through Docker port mapping
 
