@@ -3,7 +3,7 @@ Created an automated ETL pipelines to run daily to fetch current weather data fr
 After running the Docker containers, the Airflow webserver UI was accessed on my local machine via localhost:8080. Similarly, pgAdmin on localhost:5050, both of which were exposed from their respective containers through Docker port mapping
 
  Approach:
- - Started with building a simple pipeline to fetch weather data only for one city i.e. Munich through providing latitude and logitude parameters
+ - Started with building a simple pipeline to fetch weather data only for one city i.e. Munich through providing parameters like latitude and logitude
  - After its successful execution, though of scaling the pipeline for other cities, to replicate real business scenario
  - Created a pipeline for 4 multiple cities, Munich, Mumbai, Boston and London. The latitudes and logitudes for these 4 countries were automatically pass into URL end point by creating an Airflow task for it
  - The scaled up pipeline uses the same DAG (for Munich) but by expanding extraction task for multiple cities
