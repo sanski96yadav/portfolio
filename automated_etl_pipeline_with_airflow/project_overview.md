@@ -18,3 +18,6 @@ DAG for multiple cities (Munich, Mumbai, Boston and London) weather data:
 
 Things could be done in real business scenario:
 - Would use third party latitiude and longitude for all cities in world and not limited to 4 cities (Munich, Mumbai, Boston and London)
+
+Open Meteo API URL:
+- https://api.open-meteo.com/v1/forecast?latitude={Latitude}&longitude={longitide}&current_weather=true
