@@ -5,7 +5,7 @@ After running the Docker containers, the Airflow webserver UI was accessed on my
  Approach:
  - Started with building a simple pipeline to fetch weather data only one city i.e. Munich
  - After its successful execution, though of scaling the pipeline for other cities, to replicate real business scenario
- - Created a pipeline for 4 multiple cities, Munich, Mumbai, Boston and London. For which, first created a table with latitude and logitude for these 4 countries.
+ - Created a pipeline for 4 multiple cities, Munich, Mumbai, Boston and London. The latitudes and logitudes for these 4 countries were automatically pass into URL end point by creating an Airflow task for it
  - The scaled up pipeline uses the same DAG (for Munich) but by expanding extraction task for multiple cities
  - The screenshots of Airflow UI and table in PostgreSQL is attached to attest the successful implementation of the pipeline 
 
