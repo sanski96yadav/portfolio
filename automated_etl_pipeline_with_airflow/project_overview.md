@@ -3,6 +3,18 @@ Created an automated ETL pipelines to run daily to fetch data from wearher API a
 After running the Docker containers, the Airflow webserver UI was accessed on my local machine via localhost:8080. Similarly, pgAdmin on localhost:5050, both of which were exposed from their respective containers through Docker port mapping
 
  Approach:
- - Started with building a simple pipeline to fetcg weather data for mUnich city
+ - Started with building a simple pipeline to fetch weather data only one city i.e. Munich
  - After its successful execution, though of scaling the pipeline for other cities, to replicate real business scenario
- - Created a pipeline for 4 cities, Munich, Mumbai, Boston and London using the same DAG but 
+ - Created a pipeline for 4 multiple cities, Munich, Mumbai, Boston and London. For which, first created a table with latitude and logitude for these 4 countries.
+ - The scaled up pipeline uses the same DAG (for Munich) but by expanding extraction task for multiple cities
+ - The screenshots of Airflow UI and table in PostgreSQL is attached to attest the successful implementation of the pipeline 
+
+DAG for multiple cities (Munich, Mumbai, Boston and London) weather data:
+- Get the latitude and longitude from a table in PostgreSQL
+- Extract data for these countries
+- Transform the data
+- Load data into a table in PostgreSQL
+
+
+Things could be done in real business scenario:
+- Would use third party latitiude and longitude for all cities in world and not limited to 4 cities (Munich, Mumbai, Boston and London)
